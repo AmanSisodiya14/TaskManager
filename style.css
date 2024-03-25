@@ -1,0 +1,56 @@
+body{
+    background-image:url(a3.jpg);
+    background-repeat: no-repeat;
+     background-size: 1800px 800px;
+    }
+
+    .intro {
+       
+        
+          
+         
+            text-align:right;
+            font-size:80px;
+            
+      }
+     
+      input[type=submit] {
+        width: 40%;
+        background-color:orange;
+        color: black;
+        padding: 12px 12px;
+        margin: 3px 0;
+        border-radius: 30px;
+        font-family: Times;
+        font-size:30px;
+        border-color:black; 
+      }
+      .task-input {
+        padding: 10px;
+        font-size: 20px;
+        width: 660px; /* Medium size */
+        border: 1px solid #ccc;
+        border-radius: 15px;
+    }
+   
+   
+.list-group-item
+{
+  padding: 10px;
+  font-size: 20px;
+  width: 800px; /* Medium size */
+  border: 3px solid rgb(255, 251, 22);
+
+  
+}
+.btn {
+  color: black; /* Set text color */
+  background-color:gold; /* Set background color */
+  border-color: black; /* Set border color */
+}
+
+.completed {
+  background-color:green;
+  border-color:black;
+  color:black;
+}

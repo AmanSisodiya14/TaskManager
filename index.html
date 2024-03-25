@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="app.js"></script>
+
+    <title>Todo list</title>
+</head>
+
+<body>
+    <header >
+        <div class="intro">
+           
+                  <center>  <font   color="white" style="font-family: Times">
+                   <b> <h1 style="font-size:90px;margin-Bottom: 80px" ><i><u>Task Manager </u></i></h1></b> 
+                    </font>
+                </center>
+                </div>    
+     
+    </header>
+
+    <div class="container mt-3" >
+        <h1 style="color:white ;font-family: Times;font-size:60px; margin-Bottom: 20px" >
+                   <i>Add Tasks</i> </h1>
+
+        <label id="lblsuccess" class="text-success" style="display: none;">
+        </label>
+
+        <form id="addForm">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7">
+
+                    <input type="text" onkeyup="toggleButton(this, 'submit')" class="task-input" id="item"placeholder="Plan your task from here...." style="font-family: Times;font-size:30px;color:black;border: 3px solid rgb(255, 251, 22)">
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-5">
+                    <input type="submit"  class="btn btn-dark" id="submit" value="ADD" disabled>
+                </div>
+            </div>
+        </form>
+
+        <h1 style="color:white;font-family: Times;font-size:40px; margin-Bottom: 20px" class="mt-4"><i>Your Tasks</i></h1>
+
+        <form id="addForm">
+            <ul class="list-group " id="items"></ul>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+   
